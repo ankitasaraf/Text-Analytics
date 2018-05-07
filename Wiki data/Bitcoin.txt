@@ -1,0 +1,74 @@
+Bitcoin
+
+Bitcoin is a cryptocurrency and worldwide payment system.It is the first decentralized digital currency, as the system works without a central bank or single administrator.The network is peer-to-peer and transactions take place between users directly, without an intermediary.These transactions are verified by network nodes through the use of cryptography and recorded in a public distributed ledger called a blockchain. Bitcoin was invented by an unknown person or group of people under the name Satoshi Nakamotoand released as open-source software in 2009.
+
+Bitcoins are created as a reward for a process known as mining. They can be exchanged for other currencies,products, and services. As of February 2015, over 100,000 merchants and vendors accepted bitcoin as payment.Research produced by the University of Cambridge estimates that in 2017, there were 2.9 to 5.8 million unique users using a cryptocurrency wallet, most of them using bitcoin.
+
+Etymology
+The word bitcoin first occurred and was defined in the white paperthat was published on 31 October 2008.It is a compound of the words bit and coin.The white paper frequently uses the shorter coin.
+
+There is no uniform convention for bitcoin capitalization. Some sources use Bitcoin, capitalized, to refer to the technology and network and bitcoin, lowercase, to refer to the unit of account.The Wall Street Journal,The Chronicle of Higher Education, and the Oxford English Dictionaryadvocate use of lowercase bitcoin in all cases, a convention followed throughout this article.
+
+Units
+The unit of account of the bitcoin system is a bitcoin. Ticker symbols used to represent bitcoin are BTC and XBT.Small amounts of bitcoin used as alternative units are millibitcoin (mBTC), and satoshi (sat). Named in homage to bitcoin's creator, a satoshi is the smallest amount within bitcoin representing 0.00000001 bitcoins, one hundred millionth of a bitcoin.A millibitcoin equals 0.001 bitcoins, one thousandth of a bitcoin or 100,000 satoshis.
+
+Symbol
+This was standardized in version 10.0 in June 2017. As with most new symbols, font support is very limited. Typefaces supporting it include Horta.
+
+History
+Main article: History of bitcoin
+On 18 August 2008, the domain name "bitcoin.org" was registered. In November that year, a link to a paper authored by Satoshi Nakamoto titled Bitcoin: A Peer-to-Peer Electronic Cash System was posted to a cryptography mailing list.Nakamoto implemented the bitcoin software as open source code and released it in January 2009 on SourceForge.The identity of Nakamoto remains unknown.
+
+In January 2009, the bitcoin network came into existence after Satoshi Nakamoto mined the first ever block on the chain, known as the genesis block. Embedded in the coinbase of this block was the following text:
+
+The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.
+
+This note has been interpreted as both a timestamp of the genesis date and a derisive comment on the instability caused by fractional-reserve banking.
+
+The receiver of the first bitcoin transaction was cypherpunk Hal Finney, who created the first reusable proof-of-work system (RPOW) in 2004.Finney downloaded the bitcoin software the day it was released, and received 10 bitcoins from Nakamoto. Other early cypherpunk supporters were Wei Dai, creator of bitcoin predecessor b-money, and Nick Szabo, creator of bitcoin predecessor bit gold.
+
+In the early days, Nakamoto is estimated to have mined 1 million bitcoins. In 2010, Nakamoto handed the network alert key and control of the Bitcoin Core code repository over to Gavin Andresen, who later became lead developer at the Bitcoin Foundation.Nakamoto subsequently disappeared from any involvement in bitcoin. Andresen stated he then sought to decentralize control, saying: "As soon as Satoshi stepped back and threw the project onto my shoulders, one of the first things I did was try to decentralize that. So, if I get hit by a bus, it would be clear that the project would go on." This left opportunity for controversy to develop over the future development path of bitcoin.
+
+Forks
+Over the history of Bitcoin there have been several spins offs and deliberate hard forks that have lived on as separate blockchains. These have come to be known as "altcoins", short for alternative coins, since Bitcoin was the first blockchain and these are derivative of it. These spin offs occur so that new ideas can be tested, when the scope of that idea is outside that of Bitcoin, or when the community is split about merging such changes.
+
+The first fork of Bitcoin was Namecoin, with discussions taking place on the Bitcointalk forum and IRC in December 2010.Another early spin off was Litecoin, which began in October, 2011. Since then there have been numerous forks of Bitcoin. See list of bitcoin forks.
+
+Blockchain
+For a broader coverage related to this topic, see Blockchain.
+
+Number of unspent transaction outputs
+The blockchain is a public ledger that records bitcoin transactions.It is implemented as a chain of blocks, each block containing a hash of the previous block up to the genesis block of the chain. A novel solution accomplishes this without any trusted central authority: the maintenance of the blockchain is performed by a network of communicating nodes running bitcoin software.Transactions of the form payer X sends Y bitcoins to payee Z are broadcast to this network using readily available software applications.Network nodes can validate transactions, add them to their copy of the ledger, and then broadcast these ledger additions to other nodes. The blockchain is a distributed database – to achieve independent verification of the chain of ownership of any and every bitcoin amount, each network node stores its own copy of the blockchain.Approximately once every 10 minutes, a new group of accepted transactions, a block, is created, added to the blockchain, and quickly published to all nodes. This allows bitcoin software to determine when a particular bitcoin amount has been spent, which is necessary in order to prevent double-spending in an environment without central oversight. Whereas a conventional ledger records the transfers of actual bills or promissory notes that exist apart from it, the blockchain is the only place that bitcoins can be said to exist in the form of unspent outputs of transactions.
+
+Transactions
+
+Number of bitcoin transactions per month (logarithmic scale)
+See also: Bitcoin network
+Transactions are defined using a Forth-like scripting language. Transactions consist of one or more inputs and one or more outputs. When a user sends bitcoins, the user designates each address and the amount of bitcoin being sent to that address in an output. To prevent double spending, each input must refer to a previous unspent output in the blockchain.The use of multiple inputs corresponds to the use of multiple coins in a cash transaction. Since transactions can have multiple outputs, users can send bitcoins to multiple recipients in one transaction. As in a cash transaction, the sum of inputs (coins used to pay) can exceed the intended sum of payments. In such a case, an additional output is used, returning the change back to the payer.Any input satoshis not accounted for in the transaction outputs become the transaction fee.
+
+Transaction fees
+
+An actual bitcoin transaction including the fee from a webbased cryptocurrency exchange to a hardware wallet.
+Paying a transaction fee is optional. Miners can choose which transactions to process,and they are incentivised to prioritize those that pay higher fees.
+
+Because the size of mined blocks is capped by the network, miners choose transactions based on the fee paid relative to their storage size, not the absolute amount of money paid as a fee. Thus, fees are generally measured in satoshis per byte, or sat/b. The size of transactions is dependent on the number of inputs used to create the transaction, and the number of outputs.
+
+Ownership
+
+Simplified chain of ownership.In reality, a transaction can have more than one input and more than one output.
+In the blockchain, bitcoins are registered to bitcoin addresses. Creating a bitcoin address is nothing more than picking a random valid private key and computing the corresponding bitcoin address. This computation can be done in a split second. But the reverse (computing the private key of a given bitcoin address) is mathematically unfeasible and so users can tell others and make public a bitcoin address without compromising its corresponding private key. Moreover, the number of valid private keys is so vast that it is extremely unlikely someone will compute a key-pair that is already in use and has funds. The vast number of valid private keys makes it unfeasible that brute force could be used for that. To be able to spend the bitcoins, the owner must know the corresponding private key and digitally sign the transaction. The network verifies the signature using the public key.
+
+If the private key is lost, the bitcoin network will not recognize any other evidence of ownership;the coins are then unusable, and effectively lost. For example, in 2013 one user claimed to have lost 7,500 bitcoins, worth $7.5 million at the time, when he accidentally discarded a hard drive containing his private key.A backup of his key(s) would have prevented this.
+
+Mining
+
+Amateur bitcoin mining with a small ASIC. This was when difficulty was much lower, and is no longer feasible.
+
+Semi-log plot of relative mining difficulty
+Mining is a record-keeping service done through the use of computer processing power.Miners keep the blockchain consistent, complete, and unalterable by repeatedly grouping newly broadcast transactions into a block, which is then broadcast to the network and verified by recipient nodes.Each block contains a SHA-256 cryptographic hash of the previous block,thus linking it to the previous block and giving the blockchain its name.
+
+To be accepted by the rest of the network, a new block must contain a so-called proof-of-work (PoW).The system used is based on Adam Back's 1997 anti-spam scheme, Hashcash.The PoW requires miners to find a number called a nonce, such that when the block content is hashed along with the nonce, the result is numerically smaller than the network's difficulty target.This proof is easy for any node in the network to verify, but extremely time-consuming to generate, as for a secure cryptographic hash, miners must try many different nonce values (usually the sequence of tested values is the ascending natural numbers: 0, 1, 2, 3, ... before meeting the difficulty target.
+
+Every 2,016 blocks (approximately 14 days at roughly 10 min per block), the difficulty target is adjusted based on the network's recent performance, with the aim of keeping the average time between new blocks at ten minutes. In this way the system automatically adapts to the total amount of mining power on the network.Between 1 March 2014 and 1 March 2015, the average number of nonces miners had to try before creating a new block increased from 16.4 quintillion to 200.5 quintillion.
+
+The proof-of-work system, alongside the chaining of blocks, makes modifications of the blockchain extremely hard, as an attacker must modify all subsequent blocks in order for the modifications of one block to be accepted.As new blocks are mined all the time, the difficulty of modifying a block increases as time passes and the number of subsequent blocks (also called confirmations of the given block) increases.

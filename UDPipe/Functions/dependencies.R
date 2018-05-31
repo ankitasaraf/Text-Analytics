@@ -1,4 +1,5 @@
 # setup code block
+if (!require(stringr)){install.packages("stringr")}
 if (!require(udpipe)){install.packages("udpipe")}
 if (!require(textrank)){install.packages("textrank")}
 if (!require(lattice)){install.packages("lattice")}
@@ -9,6 +10,7 @@ if (!require(RColorBrewer)){install.packages("RColorBrewer")}
 if (!require(shiny)){install.packages("shiny")}
 if (!require(shinydashboard)){install.packages("shinydashboard")}
 
+library(stringr)
 library(udpipe)
 library(textrank)
 library(lattice)

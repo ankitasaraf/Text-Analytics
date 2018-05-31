@@ -5,6 +5,9 @@ if (!require(lattice)){install.packages("lattice")}
 if (!require(igraph)){install.packages("igraph")}
 if (!require(ggraph)){install.packages("ggraph")}
 if (!require(wordcloud)){install.packages("wordcloud")}
+if (!require(RColorBrewer)){install.packages("RColorBrewer")}
+if (!require(shiny)){install.packages("shiny")}
+if (!require(shinydashboard)){install.packages("shinydashboard")}
 
 library(udpipe)
 library(textrank)
@@ -14,3 +17,7 @@ library(ggraph)
 library(ggplot2)
 library(wordcloud)
 library(stringr)
+library(tm)
+library(RColorBrewer)
+library(shiny)
+library(shinydashboard)
